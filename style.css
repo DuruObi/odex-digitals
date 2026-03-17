@@ -1,0 +1,154 @@
+:root{
+
+  /* Brand Colors */
+  --primary-blue: #0A84FF;
+  --electric-blue: #1E40FF;
+  --neon-cyan: #22D3EE;
+  --tech-green: #22C55E;
+  --neon-purple: #8B5CF6;
+
+  /* Background */
+  --bg-dark: #020617;
+  --bg-card: #0F172A;
+
+  /* Text */
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+
+  /* Borders */
+  --border-color: #1E293B;
+
+  /* Shadows */
+  --shadow-soft: 0 4px 15px rgba(0,0,0,0.35);
+  --shadow-medium: 0 10px 30px rgba(0,0,0,0.5);
+
+  /* Neon Glow */
+  --glow-blue: 0 0 15px rgba(34,211,238,0.7);
+  --glow-purple: 0 0 20px rgba(139,92,246,0.7);
+
+}:root{
+
+--neon-cyan:#22D3EE;
+--electric-blue:#1E40FF;
+--bg-dark:#020617;
+--bg-card:#0F172A;
+--text-main:#F8FAFC;
+--border:#1E293B;
+
+--shadow-soft:0 4px 15px rgba(0,0,0,0.4);
+
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Poppins",sans-serif;
+}
+
+body{
+background:var(--bg-dark);
+color:var(--text-main);
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px 60px;
+background:#020617;
+border-bottom:1px solid var(--border);
+}
+
+.logo{
+font-weight:600;
+font-size:20px;
+color:var(--neon-cyan);
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+padding:120px 60px;
+text-align:center;
+}
+
+.brand-title{
+font-size:48px;
+color:var(--neon-cyan);
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:600px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.btn-primary{
+background:linear-gradient(90deg,var(--neon-cyan),var(--electric-blue));
+padding:12px 22px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+margin-right:10px;
+}
+
+.btn-secondary{
+border:1px solid var(--neon-cyan);
+padding:12px 22px;
+border-radius:8px;
+text-decoration:none;
+color:white;
+}
+
+.services{
+padding:80px 60px;
+text-align:center;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:var(--bg-card);
+padding:25px;
+border-radius:10px;
+border:1px solid var(--border);
+box-shadow:var(--shadow-soft);
+}
+
+.projects{
+padding:80px 60px;
+text-align:center;
+}
+
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.cta{
+text-align:center;
+padding:80px 20px;
+}
+
+.footer{
+text-align:center;
+padding:30px;
+border-top:1px solid var(--border);
+}
