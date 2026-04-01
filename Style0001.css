@@ -104,9 +104,11 @@ text-decoration:none;
 color:white;
 margin-top:20px;
 margin: 20px;
+cursor: pointer;
 }
 
 .btn-secondary{
+background: linear-gradient(90deg, var(--neon-cyan), var(--electric-blue));
 border:1px solid var(--neon-cyan);
 padding:12px 22px;
 border-radius:8px;
@@ -114,6 +116,7 @@ text-decoration:none;
 color:white;
 margin-top: 20px;
 margin: 20px;
+cursor: pointer;
 }
 
 .btn-primary:hover{
